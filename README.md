@@ -1,0 +1,1 @@
+# cf-stylecop-config-test
