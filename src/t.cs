@@ -2,15 +2,26 @@ namespace RandomSmth;
 
 public class Test
 {
-	public bool Enabled
+    public bool Enabled
     {
+	
+	get
+	{
 		
-		get
-		{
-			
-			return this.enabled;
+		return true;
 
-			
-		}
+		
 	}
+    }
+
+    public bool Enabled2
+    {
+        get 
+        { 
+	    System.Console.WriteLine("Getting the enabled flag.");
+
+
+	    return false; 
+        }
+    }
 }
