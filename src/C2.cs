@@ -12,7 +12,6 @@ namespace CodeAnalysisRuleTests
         {
             get
             {
-
                 return false;
             }
         }
